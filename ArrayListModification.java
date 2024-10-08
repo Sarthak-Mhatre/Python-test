@@ -6,8 +6,7 @@ public class ArrayListModification {
         Scanner scanner = new Scanner(System.in);
 
         // Prompt the user to enter a number
-        System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        int number = 1634
 
         // Check if the number is an Armstrong number
         if (isArmstrong(number)) {
