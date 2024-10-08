@@ -25,7 +25,7 @@ def hangman():
         print(f"Incorrect guesses: {' '.join(incorrect_guesses)}")
         print(f"Remaining attempts: {attempts}")
 
-        guess = input("Guess a letter: ").upper()
+        guess = 'A'
 
         if guess in guessed_letters or guess in incorrect_guesses:
             print("You've already guessed that letter.")
