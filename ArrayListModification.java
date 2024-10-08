@@ -6,7 +6,7 @@ public class ArrayListModification {
         Scanner scanner = new Scanner(System.in);
 
         // Prompt the user to enter a number
-        int number = 1634
+        int number = 1634;
 
         // Check if the number is an Armstrong number
         if (isArmstrong(number)) {
